@@ -19,7 +19,7 @@ export function Navigation() {
 
   const navLinks = [
     { name: "الرئيسية", href: "#" },
-    { name: "أطباؤنا", href: "#experts" },
+    { name: "عن المنظومة", href: "#about" },
     { name: "خدماتنا", href: "#services" },
     { name: "تواصل معنا", href: "#contact" },
   ];

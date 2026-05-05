@@ -28,7 +28,7 @@ const services = [
 
 export function ServicesList() {
   return (
-    <section className="py-32 bg-bg-secondary relative">
+    <section id="services" className="py-32 bg-bg-secondary relative">
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-24">
           <span className="text-primary text-xs font-bold tracking-[0.5em] uppercase mb-4 block">المنتجات</span>

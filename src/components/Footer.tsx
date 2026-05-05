@@ -87,10 +87,11 @@ export function Footer() {
         </div>
         
         <div className="border-t border-white/5 pt-12 text-center text-text-secondary/40 text-xs flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="tracking-widest uppercase">© {new Date().getFullYear()} Promedic vip. All Rights Reserved.</p>
+          <p className="tracking-widest uppercase">© {new Date().getFullYear()} العقبي 94 VIP. All Rights Reserved.</p>
           <div className="flex gap-8 uppercase tracking-[0.2em]">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-primary transition-colors">الرئيسية</a>
+            <a href="#about" className="hover:text-primary transition-colors">عن المنظومة</a>
+            <a href="#services" className="hover:text-primary transition-colors">خدماتنا</a>
           </div>
         </div>
       </div>
