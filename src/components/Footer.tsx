@@ -20,9 +20,8 @@ export function Footer() {
                 <div className="w-12 h-12 shrink-0 rounded-full border border-primary/20 flex items-center justify-center group-hover:bg-primary transition-all group-hover:border-primary mt-1">
                   <span className="text-primary group-hover:text-bg-deep transition-colors">📍</span>
                 </div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-sm font-bold tracking-wide">العيادة الرئيسية: المهندسين، القاهرة</span>
-                  <span className="text-sm font-bold tracking-wide text-text-secondary">الأقصر: فندق أوبال</span>
+                <div className="flex flex-col gap-2 pt-1">
+                  <span className="text-sm font-bold tracking-wide">الأقصر: فندق أوبال</span>
                   <span className="text-sm font-bold tracking-wide text-text-secondary">الكشف في مستشفي الكمال</span>
                 </div>
               </div>
@@ -89,9 +88,8 @@ export function Footer() {
         <div className="border-t border-white/5 pt-12 text-center text-text-secondary/40 text-xs flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="tracking-widest uppercase">© {new Date().getFullYear()} العقبي 94 VIP. All Rights Reserved.</p>
           <div className="flex gap-8 uppercase tracking-[0.2em]">
-            <a href="#" className="hover:text-primary transition-colors">الرئيسية</a>
-            <a href="#about" className="hover:text-primary transition-colors">عن المنظومة</a>
-            <a href="#services" className="hover:text-primary transition-colors">خدماتنا</a>
+            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
